@@ -11,6 +11,7 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
  
+
   <servlet>
 	<servlet-name>Jersey REST Service</servlet-name>
 	<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
@@ -25,5 +26,6 @@
   	<servlet-name>Jersey REST Service</servlet-name>
   	<url-pattern>/api/*</url-pattern>
   </servlet-mapping>
+
 
 </web-app>
